@@ -1,0 +1,34 @@
+// Here you can add other styles
+.breadcrumb-item a{
+text-decoration: none!important;
+color: #595c7e!important;
+}
+.breadcrumb-item.active {
+  color: #009746!important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--lightestgrey); 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .sidebar {
+    --cui-sidebar-bg: #242f3c;
+  }
+  td{
+    white-space:nowrap;
+  }
